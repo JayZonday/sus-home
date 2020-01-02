@@ -4,19 +4,33 @@
 .nav-btn{
   width: 23.5%;
   height: 50px;
+  border: 1px solid #aaa;
   background: none;
   font-weight: 600;
   font-size: 13px;
   color: black;
+  border: 1px solid black;
   transition: .25s ease-in-out;
   font-family: 'Courgette', cursive;
 }
 .nav-btn:hover{
-  color: #ff66cc;
-  background: rgba(100,40,80,.05);
-  border: 1px solid black;
+  color: white;
+  background: rgba(255,255,255,.15);
+
 }
 .nav-logo{
   height: 50px;
   width: 4%;
+}
+.qotd{
+  display: none;
+  position: absolute;
+  background: rgba(255,255,255,.96);
+  border: 2px solid rgb(100,40,80);
+  padding: 5%;
+  width: 20%;
+  margin-left: 50%;
+  margin-top: 25%;
+  z-index: 101;
+  text-align: center;
 }

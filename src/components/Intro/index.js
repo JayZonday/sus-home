@@ -9,7 +9,6 @@ class Intro extends Component {
 
     return (
       <div>
-        Intro
       </div>
     );
   }

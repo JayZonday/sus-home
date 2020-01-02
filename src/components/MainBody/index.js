@@ -9,7 +9,7 @@ class MainBody extends Component {
 
     return (
       <div>
-        Main Body
+  
       </div>
     );
   }

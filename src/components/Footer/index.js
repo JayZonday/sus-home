@@ -7,8 +7,8 @@ class Footer extends Component {
   render(){
 
     return (
-      <div>
-        Footer
+      <div className='footer'>
+        Grateful Counseling LLC 2020
       </div>
     );
   }
