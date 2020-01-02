@@ -16,7 +16,6 @@ class App extends Component {
       <div>
         <TopNav/>
         <Header/>
-        <h1 className='main-title'>Susanne Loquet. MSW. LCSW.</h1>
         <Intro/>
         <MainBody/>
         <Footer/>

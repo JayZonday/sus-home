@@ -1,0 +1,22 @@
+.navbar{
+  margin-bottom: 1%;
+}
+.nav-btn{
+  width: 23.5%;
+  height: 50px;
+  background: none;
+  font-weight: 600;
+  font-size: 13px;
+  color: black;
+  transition: .25s ease-in-out;
+  font-family: 'Courgette', cursive;
+}
+.nav-btn:hover{
+  color: #ff66cc;
+  background: rgba(100,40,80,.05);
+  border: 1px solid black;
+}
+.nav-logo{
+  height: 50px;
+  width: 4%;
+}
