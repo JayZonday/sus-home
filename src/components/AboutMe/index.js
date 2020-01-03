@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './index.css';
-import Rose from './pinkrose.png'
 
 
 class AboutMe extends Component {
@@ -10,7 +9,7 @@ class AboutMe extends Component {
 
     return (
       <div className='about-slab'>
-
+        All About Susanne
       </div>
     );
   }
