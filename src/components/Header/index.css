@@ -25,7 +25,8 @@
 
 }
 .main-title#name{
-  margin-left: 15%;
+  margin-left: 14%;
+  margin-top: 1%;
 }
 .main-title#biz{
   margin-left: 5%;
@@ -38,5 +39,5 @@
 
 }
 .license{
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
