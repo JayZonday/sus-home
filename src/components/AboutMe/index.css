@@ -1,0 +1,27 @@
+.about-slab{
+  height: 455px;
+  width: 85%;
+  background: white;
+  margin: 2.5%;
+  padding: 5%;
+  display: flex;
+  border: 2px solid black;
+}
+.bio-pic{
+  height: 400px;
+  width: 250px;
+  border-radius: 100%;
+  border: 1px solid black;
+  background: #ffc8b3;;
+}
+.mini-bio{
+  background: white;
+  padding: 2%;
+  height: 245px;
+  width: 80%;
+  font-size: 24px;
+  margin-left: 2%;
+  margin-top: 5%;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
