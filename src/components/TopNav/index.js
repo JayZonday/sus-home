@@ -28,7 +28,7 @@ class TopNav extends Component {
         <a href='mailto:susloquet@gmail.com' target='_blank'><button className='nav-btn' id='mailer' href="mailto:name@mydomain.com">Contact Me</button></a>
         <NavLink to="/about"> <button className='nav-btn'>About Me</button> </NavLink>
         <button className='nav-btn'>Services</button>
-        <button onClick={()=> this.quoteHandler()}className='nav-btn'>Quote of The Day</button>
+        <button onClick={()=> this.quoteHandler()}className='nav-btn'>Quote of The Week</button>
         <Draggable>
           <div className='qotd'>
             <button onClick={()=> this.handleClose()} className='close-btn'>x</button>

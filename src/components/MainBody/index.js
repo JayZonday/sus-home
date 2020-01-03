@@ -9,7 +9,7 @@ class MainBody extends Component {
 
     return (
       <div className='main-box'>
-        <div className='main-slab' id='questions'>Anoymous Advice</div>
+        <div className='main-slab' id='questions'>Anonymous Advice</div>
         <div className='main-slab' id='schedule'>Schedule a Session</div>
       </div>
     );
