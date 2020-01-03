@@ -22,10 +22,13 @@
   font-size: 3.5vw;
   color: rgba(0,0,0,.8);
   transition: 2.5s ease-in-out;
-  margin-left: 5%;
+
+}
+.main-title#name{
+  margin-left: 15%;
 }
 .main-title#biz{
-  margin-left: 17%;
+  margin-left: 5%;
   margin-top: 3%;
   font-size: 4vw;
   text-align: center;

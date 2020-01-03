@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Draggable from 'react-draggable';
+import { NavLink } from 'react-router-dom'
 import './index.css';
 import Rose from './pinkrose.png'
 
@@ -23,9 +24,9 @@ class TopNav extends Component {
 
     return (
       <div className='navbar'>
-        <img className='nav-logo' src={Rose}/>
+        <NavLink to="/"> <img className='nav-logo' src={Rose}/> </NavLink>
         <a href='mailto:susloquet@gmail.com'><button className='nav-btn' id='mailer' href="mailto:name@mydomain.com">Contact Me</button></a>
-        <button className='nav-btn'>About Me</button>
+        <NavLink to="/about"> <button className='nav-btn'>About Me</button> </NavLink>
         <button className='nav-btn'>Services</button>
         <button onClick={()=> this.quoteHandler()}className='nav-btn'>Quote of The Day</button>
         <Draggable>

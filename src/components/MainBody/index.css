@@ -27,4 +27,5 @@
 .main-slab:hover{
   border: 3px solid #ffc8b3;
   background:  rgba(255, 255, 255, .95);
+  transform: scale(1.15);
 }
