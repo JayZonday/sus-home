@@ -8,8 +8,9 @@ class MainBody extends Component {
   render(){
 
     return (
-      <div>
-  
+      <div className='main-box'>
+        <div className='main-slab' id='questions'>Anoymous Advice</div>
+        <div className='main-slab' id='schedule'>Schedule a Session</div>
       </div>
     );
   }
