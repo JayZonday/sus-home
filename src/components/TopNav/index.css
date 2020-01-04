@@ -1,15 +1,16 @@
 .navbar{
   margin-bottom: 1%;
+  padding: 1%;
+  background: black;
 }
 .nav-btn{
   width: 22%;
   height: 50px;
-  border: 1px solid #aaa;
+  border: 2px solid #aaa;
   background: none;
   font-weight: 600;
   font-size: 13px;
-  color: black;
-  border: 1px solid black;
+  color: white;
   transition: .25s ease-in-out;
   font-family: 'Courgette', cursive;
   margin: .5%;
@@ -19,8 +20,9 @@ a:hover, a, a:active{
 }
 
 .nav-btn:hover{
-  color: white;
-  background: rgba(255,255,255,.15);
+  color: #ffc8b3;
+  border: 1px solid white;
+  background: rgba(255,255,255,.25);
 
 }
 .nav-logo{

@@ -8,7 +8,7 @@ class Footer extends Component {
 
     return (
       <div className='footer'>
-        Grateful Counseling LLC 2020
+        Grateful Counseling LLC | River Edge, New Jersey | Phone - (201)-261-8377
       </div>
     );
   }

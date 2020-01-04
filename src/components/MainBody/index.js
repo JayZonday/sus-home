@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom'
 import './index.css';
 
 
@@ -9,8 +10,8 @@ class MainBody extends Component {
 
     return (
       <div className='main-box'>
-        <div className='main-slab' id='questions'>Anonymous Advice</div>
-        <div className='main-slab' id='schedule'>Schedule a Session</div>
+        <NavLink to='/ask-me-anything' className='main-slab' id='questions'><div>Anonymous Advice</div></NavLink>
+        <NavLink to='/scheduling' className='main-slab' id='schedule'><div id='schedule'>Schedule a Session</div></NavLink>
       </div>
     );
   }

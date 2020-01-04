@@ -7,7 +7,7 @@
   background-attachment:fixed;
 }
 .main-title-box{
-  background: rgba(255,255,255,.75);
+  background: rgba(255,255,255,.8);
   width: 86%;
   position: absolute;
   margin-left: 5%;
@@ -16,6 +16,7 @@
   height: 200px;
   display: flex;
   padding: 2%;
+
   font-family: 'Courgette', cursive;
 }
 .main-title{
@@ -23,10 +24,12 @@
   color: rgba(0,0,0,.8);
   transition: 2.5s ease-in-out;
 
+
 }
 .main-title#name{
   margin-left: 14%;
   margin-top: 1%;
+  text-align: center;
 }
 .main-title#biz{
   margin-left: 5%;
