@@ -10,6 +10,9 @@ class AskMeAnything extends Component {
     return (
       <div className='ask-slab'>
         Ask Me Anything
+        <input></input>
+        <input></input>
+
       </div>
     );
   }

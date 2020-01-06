@@ -25,3 +25,15 @@
   font-family: 'Open Sans Condensed', sans-serif;
 
 }
+@media only screen and (max-width: 600px) {
+  .bio-pic{
+    height: 330px;
+    width: 46%;
+    border-radius: 100%;
+    border: 1px solid black;
+    background: #ffc8b3;
+  }
+  .mini-bio{
+    font-size: 4vw;
+  }
+}

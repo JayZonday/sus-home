@@ -13,7 +13,7 @@ class Header extends Component {
           <h1 className='main-title' id='biz'>
             Grateful Counseling LLC
             <br/>
-            <span className='title-desc'>Creative Counseling Walk & Talk Therapy</span>
+            <span className='title-desc'>Creative Counseling <br/> Walk & Talk Therapy</span>
           </h1>
 
           <h1 className='main-title' id='name'>

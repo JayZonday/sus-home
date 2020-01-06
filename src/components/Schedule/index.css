@@ -1,0 +1,20 @@
+.schedule-slab{
+  background: white;
+  height: 750px;
+}
+
+.elvis-title{
+  position: absolute;
+  font-family: 'Courgette', cursive;
+  margin: 38% 0 0  17.5%;
+  font-size: 35px;
+
+  font-weight: bold;
+
+}
+.elvis-sand{
+  position: absolute;
+  margin: 5% 0 0 10%;
+  border-radius: 3%;
+  width: 55%;
+}
