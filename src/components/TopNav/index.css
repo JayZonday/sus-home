@@ -57,3 +57,18 @@ a:hover, a, a:active{
 .close-btn:hover{
   color: #ffc8b3;
 }
+@media only screen and (max-width: 600px) {
+  .qotd{
+    position: absolute;
+    background: rgba(0,0,0,.96);
+    border: 2px solid #ffc8b3;
+    padding: 5%;
+    color: #ffc8b3;
+    width: 60%;
+    margin-left: 13%;
+    margin-top: 36%;
+    z-index: 101;
+    text-align: center;
+    font-size: 20px;
+  }
+}
