@@ -9,9 +9,10 @@ class AskMeAnything extends Component {
 
     return (
       <div className='ask-slab'>
-        Ask Me Anything
-        <input></input>
-        <input></input>
+        <div className='title-slab'>Ask Me Anything</div>
+        <input className='subject'></input>
+        <input className='question'></input>
+        <button className='send-btn'>Send</button>
 
       </div>
     );

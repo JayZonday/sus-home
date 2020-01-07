@@ -17,6 +17,7 @@ class AboutMe extends Component {
           CLINICAL SOCIAL WORK, Susanne Loquet affiliates with no hospital, cooperates with many other doctors and specialists
           in medical group Wellqor Psychological Services Northeast, Pc.
           <br/>
+          <br/>
           <span className='caller'>Call Susanne Loquet @ (201) 261-8377 for more information and advice or to book an appointment.</span>
         </div>
       </div>

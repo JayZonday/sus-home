@@ -1,4 +1,44 @@
 .ask-slab{
   display: grid;
+  font-family: 'Open Sans Condensed', sans-serif;
 
+}
+.question{
+  height: 150px;
+  width: 70%;
+  margin: 2% auto;
+  font-size: 20px;
+  text-align: center;
+    border-radius: 3%;
+  border: 3px solid black;
+}
+.subject{
+  height:50px;
+  width: 70%;
+  margin: 1% auto;
+  font-size: 17px;
+  text-align: center;
+    border-radius: 3%;
+  border: 2px solid black;
+}
+.title-slab{
+  margin: 2% auto;
+  font-size: 32px;
+  border: 1px solid black;
+  padding: 2%;
+  background: white;
+    border-radius: 3%;
+}
+.send-btn{
+  margin: 2% auto;
+  font-size: 22px;
+  border: 1px solid black;
+  padding: 1%;
+  background: white;
+  transition: .25s ease-in-out;
+  border-radius: 3%;
+}
+.send-btn:hover{
+  background: black;
+  color: white;
 }
