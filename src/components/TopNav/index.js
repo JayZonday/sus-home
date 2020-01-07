@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Draggable from 'react-draggable';
 import { NavLink } from 'react-router-dom'
 import './index.css';
-import Rose from './pinkrose.png'
+import Sunflower from './sunflower.png'
 
 
 class TopNav extends Component {
@@ -24,7 +24,7 @@ class TopNav extends Component {
 
     return (
       <div className='navbar'>
-        <NavLink to="/"> <img className='nav-logo' src={Rose}/> </NavLink>
+        <NavLink to="/"> <img className='nav-logo' src={Sunflower}/> </NavLink>
         <a href='mailto:susloquet@gmail.com' target='_blank'><button className='nav-btn' id='mailer' href="mailto:name@mydomain.com">Contact Me</button></a>
         <NavLink to="/about"> <button className='nav-btn'>About Me</button> </NavLink>
         <button className='nav-btn'>Services</button>
