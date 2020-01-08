@@ -12,7 +12,7 @@
   width: 250px;
   border-radius: 100%;
   border: 1px solid black;
-  background: #ffc8b3;;
+  background: #FFE5B4;
 }
 .mini-bio{
   background: white;
@@ -31,7 +31,7 @@
     width: 46%;
     border-radius: 100%;
     border: 1px solid black;
-    background: #ffc8b3;
+    background: #FFE5B4;
   }
   .mini-bio{
     font-size: 4vw;

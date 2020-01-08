@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MainBody from '../MainBody'
 import './index.css';
 
 
@@ -25,6 +26,7 @@ class Header extends Component {
             <br/>
           </h1>
         </div>
+        <MainBody/>
       </div>
     );
   }

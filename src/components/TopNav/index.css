@@ -20,7 +20,7 @@ a:hover, a, a:active{
 }
 
 .nav-btn:hover{
-  color: #ffc8b3;
+  color: #FFE5B4;
   border: 1px solid white;
   background: rgba(255,255,255,.25);
 
@@ -33,7 +33,7 @@ a:hover, a, a:active{
   display: none;
   position: absolute;
   background: rgba(255,255,255,.96);
-  border: 2px solid #ffc8b3;
+  border: 2px solid #FFE5B4;
   padding: 5%;
   width: 20%;
   margin-left: 35%;
@@ -62,16 +62,16 @@ a:hover, a, a:active{
   .qotd{
     position: absolute;
     background: rgba(0,0,0,.96);
-    border: 2px solid #ffc8b3;
+    border: 2px solid #FFE5B4;
     padding: 5%;
-    color: #ffc8b3;
+    color: #FFE5B4;
     width: 60%;
     margin-left: 13%;
     margin-top: 36%;
     z-index: 101;
     text-align: center;
     font-size: 20px;
-    border-radius: 5%;
+    border-radius: 2%
   }
   .close-btn{
     margin-top: -7%;

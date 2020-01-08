@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../Header'
-import MainBody from '../MainBody'
 import './index.css';
 
 
@@ -12,7 +11,7 @@ class CentralHome extends Component {
     return (
       <div>
         <Header/>
-        <MainBody/>
+
       </div>
     );
   }
