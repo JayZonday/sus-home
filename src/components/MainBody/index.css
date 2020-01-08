@@ -8,7 +8,7 @@
 }
 .main-slab{
   margin: 4% 0 0 23%;;
-  border: 3px solid transparent;
+  border: 5px solid transparent;
   background:  rgba(255, 255, 255, 0.75);
   padding: 3%;
   color: black !important;
@@ -24,7 +24,7 @@
   cursor: not-allowed;
 }
 .main-slab:hover{
-  border: 3px solid #FFE5B4;
+  border: 5px solid #FFE5B4;
   background:  rgba(255, 255, 255, .95);
   transform: scale(1.10);
 }
