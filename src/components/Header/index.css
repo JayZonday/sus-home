@@ -46,7 +46,7 @@
 @media only screen and (max-width: 600px) {
 
   .header{
-    background-image: url(/static/media/walk2.e2978c7f.jpg);
+    background-image: url('./sunflowerhappy.jpg');
     background-size: 100% 70%;
     height: 550px;
     background-position: top;
