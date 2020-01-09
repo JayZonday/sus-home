@@ -9,8 +9,8 @@
   margin: 2% auto;
   font-size: 20px;
   text-align: center;
-    border-radius: 3%;
-  border: 3px solid black;
+    border-radius: 2%;
+  border: 2px solid black;
 }
 .subject{
   height:50px;
@@ -18,13 +18,13 @@
   margin: 1% auto;
   font-size: 17px;
   text-align: center;
-    border-radius: 3%;
+  border-radius: 2%;
   border: 2px solid black;
 }
 .title-slab{
   margin: 2% auto;
   font-size: 28px;
-  border: 1px solid black;
+  border: 3px solid white;;
   padding: 4%;
   width: 22%;
   text-align: center;
@@ -33,7 +33,7 @@
   border-radius: 3%;
   color: #FFE5B4;
   font-weight: 900;
-  
+
 }
 .ask-title{
   margin-top: -10%;
@@ -51,4 +51,23 @@
 .send-btn:hover{
   background: black;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-slab{
+    margin: 2% auto;
+    font-size: 24px;
+    border: 3px solid white;;
+    padding: 4%;
+    width: 65%;
+    text-align: center;
+    background-image: url('./sunflowersbg.jpg');
+    background-size: 100% 100%;
+    border-radius: 3%;
+    color: #FFE5B4;
+    font-weight: 900;
+  }
+  .ask-title{
+    margin-top: -5%;
+  }
 }

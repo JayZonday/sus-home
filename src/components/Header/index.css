@@ -97,7 +97,21 @@
     background: white;
     width: 100%;
   }
-  .main-slab{display: none;}
+  .main-slab{
+    margin: 115% 0 0 15%;;
+    font-size: 14px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+    font-weight: bolder;
+    border-radius: 1%;
+    transition: .25s ease-in-out;
+    background: none;
+  }
+  .main-slab:hover{
+    background: rgba(255,255,255,0.55);
+    border: 1px solid black;
+  }
   .license{
     font-size: 5vw;;
   }
