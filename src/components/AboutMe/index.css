@@ -27,18 +27,20 @@
 }
 @media only screen and (max-width: 600px) {
   .bio-pic{
-    height: 330px;
-    width: 46%;
+    height: 250px;
+    width: 45%;
     border-radius: 100%;
     border: 1px solid black;
     background: #FFE5B4;
+    margin-top: 10%
   }
   .mini-bio{
     font-size: 4vw;
   }
   .caller{
     position: absolute;
-    margin: 4% 0 0 -43%;
+    margin: 4% 0 0 -34%;
+    width: 75%;
     font-weight: 600;
   }
 }
