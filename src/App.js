@@ -5,7 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import AboutMe from './components/AboutMe'
 import AskMeAnything from './components/AskMeAnything'
-import Schedule from './components/Schedule'
+import HelpfulSources from './components/HelpfulSources'
 import MainBody from './components/MainBody'
 import CentralHome from './components/CentralHome'
 import './App.css';
@@ -23,7 +23,7 @@ class App extends Component {
           <Route path='/' exact component={ CentralHome } />
           <Route path='/about' exact component={ AboutMe } />
           <Route path='/ask-me-anything' exact component={ AskMeAnything } />
-          <Route path='/scheduling' exact component={ Schedule } />
+          <Route path='/helpful-resources' exact component={ HelpfulSources } />
         </Switch>
         <Footer/>
       </Router>

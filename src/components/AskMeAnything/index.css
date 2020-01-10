@@ -70,4 +70,10 @@
   .ask-title{
     margin-top: -5%;
   }
+  .send-btn{
+    align-content: center;
+    margin-left: 42%;
+    font-size: 18px;
+    padding:2%;
+  }
 }

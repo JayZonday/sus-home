@@ -11,7 +11,7 @@ class MainBody extends Component {
     return (
       <div className='main-box'>
         <NavLink to='/ask-me-anything' className='main-slab' id='questions'><div>Anonymous Advice</div></NavLink>
-        <NavLink to='/scheduling' className='main-slab' id='schedule'><div id='schedule'>Helpful <br/>Resources</div></NavLink>
+        <NavLink to='/helpful-resources' className='main-slab' id='schedule'><div id='schedule'>Helpful <br/>Resources</div></NavLink>
       </div>
     );
   }

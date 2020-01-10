@@ -21,9 +21,6 @@
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.main-slab#schedule{
-  cursor: not-allowed;
-}
 .main-slab:hover{
   border: 5px solid #FFE5B4;
   background:  rgba(255, 255, 255, .95);

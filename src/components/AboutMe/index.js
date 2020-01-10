@@ -18,7 +18,7 @@ class AboutMe extends Component {
           in medical group Wellqor Psychological Services Northeast, Pc.
           <br/>
           <br/>
-          <span className='caller'>Call Susanne Loquet @ (201) 261-8377 for more information and advice or to book an appointment.</span>
+          <span className='caller'>Call Susanne Loquet @ (917)-612-1494 for more information and advice or to book an appointment.</span>
         </div>
       </div>
     );

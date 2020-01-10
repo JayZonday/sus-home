@@ -24,12 +24,12 @@ class TopNav extends Component {
 
     return (
       <div className='navbar'>
-        <NavLink to="/"><span id='home-title'>GCS</span> <img className='nav-logo' src={Sunflower}/> </NavLink>
+        <NavLink title='Return to Homepage'to="/"><span id='home-title'>GCS</span> <img className='nav-logo' src={Sunflower}/> </NavLink>
         <a href='mailto:susloquet@gmail.com' target='_blank'><button className='nav-btn' id='mailer' href="mailto:name@mydomain.com">Contact Me</button></a>
         <NavLink to="/about"> <button className='nav-btn'>About Me</button> </NavLink>
         <button className='nav-btn'>Services</button>
         <button onClick={()=> this.quoteHandler()}className='nav-btn'>Quote of The Week</button>
-        <Draggable>
+
           <div className='qotd'>
             <button onClick={()=> this.handleClose()} className='close-btn'>x</button>
             “You don't get to choose not to pay a price, you only get to choose which price you pay”
@@ -37,7 +37,7 @@ class TopNav extends Component {
             <br/>
             <b>Jordan B. Peterson</b>
           </div>
-        </Draggable>
+
       </div>
     );
   }
