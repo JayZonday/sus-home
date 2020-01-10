@@ -24,7 +24,7 @@ class TopNav extends Component {
 
     return (
       <div className='navbar'>
-        <NavLink to="/"> <img className='nav-logo' src={Sunflower}/> </NavLink>
+        <NavLink to="/"><span id='home-title'>GCS</span> <img className='nav-logo' src={Sunflower}/> </NavLink>
         <a href='mailto:susloquet@gmail.com' target='_blank'><button className='nav-btn' id='mailer' href="mailto:name@mydomain.com">Contact Me</button></a>
         <NavLink to="/about"> <button className='nav-btn'>About Me</button> </NavLink>
         <button className='nav-btn'>Services</button>
