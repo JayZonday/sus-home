@@ -17,36 +17,41 @@ class HelpfulSources extends Component {
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img  className='flip-img'src={Book} alt="Avatar'"/>
+              <img  className='flip-img'src={Book} alt="books'"/>
             </div>
             <div class="flip-card-back">
               <h1>Top Five Books</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
+              <p>....</p>
+              <p>...</p>
+              <p>...</p>
+              <p>...</p>
+              <p>...</p>
             </div>
           </div>
         </div>
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img className='flip-img' src={Calm} alt="Avatar'"/>
+              <img className='flip-img' src={Calm} alt="oils'"/>
             </div>
             <div class="flip-card-back">
-              <h1>Essential Oils</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
+              <h1>Relaxation</h1>
+              <p>Music</p>
+              <p>Burning Incense</p>
+              <p>Essential Oils</p>
             </div>
           </div>
         </div>
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img className='flip-img' src={Walk} alt="Avatar'"/>
+              <img className='flip-img' src={Walk} alt="hobbies'"/>
             </div>
             <div class="flip-card-back">
               <h1>Hobbies/Interests</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
+              <p>Yoga</p>
+              <p>Walk a Dog</p>
+              <p>Excercise</p>
             </div>
           </div>
         </div>

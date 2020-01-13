@@ -39,7 +39,7 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-image: #bbb;
+  background: yellow;
   color: black;
 }
 .flip-img{
@@ -49,8 +49,9 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: ;
+  border: 2px solid black;
+  color: black;;
   transform: rotateY(180deg);
 }
 
