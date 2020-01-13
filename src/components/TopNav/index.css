@@ -87,7 +87,7 @@ a:hover, a, a:active{
   }
   #home-title{
     position: absolute;;
-    margin: 3% 0% 0 46.1%;
+    margin: 3% 0% 0 47.1%;
     background: black;
     color: white;
     font-weight: 600;
@@ -96,5 +96,8 @@ a:hover, a, a:active{
   .close-btn{
     margin-top: 30%;
     margin-left: 80%;
+  }
+  .navbar{
+    padding: 0%;
   }
 }
