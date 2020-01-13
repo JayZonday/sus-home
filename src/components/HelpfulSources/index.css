@@ -6,37 +6,52 @@
   display: flex;
 }
 
-.source{
-  text-align: center;
-  margin: 3% auto;
-  width: 28%;
-  padding: 0%;
-  border: 1px solid black;
-  height: 350px;
-  background-size: 100% 100%;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  transition: .25s ease-in-out;
-
-}
-.source:hover{
-  transform: scale(1.075);
+.flip-card {
+  background-color: transparent;
+  width: 26%;;
+  height:350px;
+  margin: 2% auto;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-.source-title{
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
   width: 100%;
-  margin: 0% auto;
-  background: white;
-  padding: 0%;
-  font-size: 30px;
+  height: 350px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
-.source#reading{
-  background-image: url('./reading.jpg');
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
-.source#calm{
-  background-image: url('./calm.jpg');
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
-.source#todo{
-  background-image: url('./todo.jpg');
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-image: #bbb;
+  color: black;
+}
+.flip-img{
+  width:100%;
+  height: 350px;;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
 }
 
 @media only screen and (max-width: 750px) {
@@ -45,8 +60,13 @@
     height: auto;
     padding-bottom: 10%;
   }
-  .source{
-      width: 80%;
+  .flip-card {
+    background-color: transparent;
+    width: 80%;;
+    height:350px;
+    margin: 2% auto;
+    margin-top: 4%;;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
 }
