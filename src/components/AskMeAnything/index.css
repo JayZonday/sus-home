@@ -9,8 +9,9 @@
   margin: 2% auto;
   font-size: 20px;
   text-align: center;
-    border-radius: 2%;
+  border-radius: 2%;
   border: 2px solid black;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .subject{
   height:50px;
@@ -20,6 +21,7 @@
   text-align: center;
   border-radius: 2%;
   border: 2px solid black;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .title-slab{
   margin: 2% auto;
@@ -30,13 +32,18 @@
   text-align: center;
   background-image: url('./sunflowersbg.jpg');
   background-size: 100% 100%;
-  border-radius: 3%;
-  color: #FFE5B4;
+  border-radius: 1%;
   font-weight: 900;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  mix-blend-mode: screen;
 
 }
 .ask-title{
   margin-top: -10%;
+  background: white;
+  color: black;
+  width: 100%;
+
 }
 .send-btn{
   align-content: center;

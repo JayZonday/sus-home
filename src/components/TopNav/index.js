@@ -27,8 +27,8 @@ class TopNav extends Component {
         <NavLink title='Return to Homepage'to="/"><span id='home-title'>GCS</span> <img className='nav-logo' src={Sunflower}/> </NavLink>
         <a href='mailto:susloquet@gmail.com' target='_blank'><button className='nav-btn' id='mailer' href="mailto:name@mydomain.com">Contact Me</button></a>
         <NavLink to="/about"> <button className='nav-btn'>About Me</button> </NavLink>
-        <button className='nav-btn'>Services</button>
-        <button onClick={()=> this.quoteHandler()}className='nav-btn'>Quote of The Week</button>
+        <button className='nav-btn'><span>Services</span></button>
+        <button onClick={()=> this.quoteHandler()}className='nav-btn'><span>Quote of The Week</span></button>
 
           <div className='qotd'>
             <button onClick={()=> this.handleClose()} className='close-btn'>x</button>

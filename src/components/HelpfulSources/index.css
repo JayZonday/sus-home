@@ -1,6 +1,6 @@
 .sources-slab{
   background: white;
-  height: 450px;
+  height: auto;
   width: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
   display: flex;
@@ -8,7 +8,7 @@
 
 .source{
   text-align: center;
-  margin: 2% auto;
+  margin: 3% auto;
   width: 28%;
   padding: 0%;
   border: 1px solid black;
@@ -16,6 +16,7 @@
   background-size: 100% 100%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   transition: .25s ease-in-out;
+
 }
 .source:hover{
   transform: scale(1.075);
@@ -36,4 +37,16 @@
 }
 .source#todo{
   background-image: url('./todo.jpg');
+}
+
+@media only screen and (max-width: 750px) {
+  .sources-slab{
+    display: block;
+    height: auto;
+    padding-bottom: 10%;
+  }
+  .source{
+      width: 80%;
+  }
+
 }

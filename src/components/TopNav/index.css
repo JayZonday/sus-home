@@ -1,6 +1,6 @@
 .navbar{
   margin-bottom: 1%;
-  padding: 1%;
+  padding: 2%;
   background: black;
 }
 .nav-btn{
@@ -13,7 +13,8 @@
   color: white;
   transition: .25s ease-in-out;
   font-family: 'Courgette', cursive;
-  margin: .5%;
+  margin: .8%;
+
 }
 a:hover, a, a:active{
   text-decoration: none !important;
@@ -41,7 +42,7 @@ a:hover, a, a:active{
   font-family: 'Open Sans Condensed', sans-serif;
   display: none;
   position: absolute;
-  background: rgba(255,255,255,.96);
+  background: rgba(255,255,255,1);
   border: 4px double black;;
   width: 85%;
   height: 200px;
@@ -52,6 +53,7 @@ a:hover, a, a:active{
   text-align: center;
   font-size: 29px;
   border-radius: 0%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .close-btn{
   position: absolute;
@@ -71,7 +73,7 @@ a:hover, a, a:active{
 @media only screen and (max-width: 750px) {
   .qotd{
     position: absolute;
-    background: rgba(0,0,0,.96);
+    background: rgba(0,0,0,1);
     border: 2px solid #FFE5B4;
     padding: 5%;
     color: #FFE5B4;
@@ -92,7 +94,7 @@ a:hover, a, a:active{
     font-family: 'Open Sans Condensed', sans-serif;
   }
   .close-btn{
-    margin-top: -5%;
-    margin-left: 83%;
+    margin-top: 30%;
+    margin-left: 80%;
   }
 }

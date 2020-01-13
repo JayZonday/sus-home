@@ -1,8 +1,18 @@
 .footer{
   background: black;
   color: white;
-  height: 120px;
+  height: 140px;
   width: 100%;
-  margin-top: 1%;
-  display: flex;
+  padding-top: .2%;
+  text-align: center;
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer-item{
+  color: white !important;
+  width: 75%;
+  margin: .5% auto;
+}
+a#mailer{
+  color: white;
 }
