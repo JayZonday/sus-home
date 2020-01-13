@@ -96,6 +96,7 @@ a:hover, a, a:active{
   .close-btn{
     margin-top: 30%;
     margin-left: 80%;
+    font-size: 25px;
   }
   .navbar{
     padding: 0%;
