@@ -31,11 +31,14 @@ class TopNav extends Component {
         <button onClick={()=> this.quoteHandler()}className='nav-btn'><span>Quote of The Month</span></button>
 
           <div className='qotd'>
-            <button onClick={()=> this.handleClose()} className='close-btn'>x</button>
+            <button onClick={()=> this.handleClose()} className='close-btn'>close</button>
+            <div className='quote'>
+
             “You don't get to choose not to pay a price, you only get to choose which price you pay”
             <br/>
             <br/>
             <b>Jordan B. Peterson</b>
+            </div>
           </div>
 
       </div>

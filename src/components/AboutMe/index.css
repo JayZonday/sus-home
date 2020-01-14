@@ -5,14 +5,21 @@
   margin: 2.5%;
   padding: 5%;
   display: flex;
-  border: 2px solid black;
+  border: 4px solid black;
 }
 .bio-pic{
-  height: 400px;
-  width: 250px;
+  height: auto;
+  width: 25%;
   border-radius: 100%;
-  border: 1px solid black;
+  border: 2px solid black;
   background: #FFE5B4;
+}
+.office-img{
+  width: 25%;
+  height: auto;
+  border-radius: 100%;
+  border: 2px solid black;
+  margin-top: 0%;
 }
 .mini-bio{
   background: white;
@@ -33,20 +40,28 @@
 }
 @media only screen and (max-width: 600px) {
   .bio-pic{
-    height: 250px;
+    height: 200px;
     width: 45%;
     border-radius: 100%;
     border: 1px solid black;
     background: #FFE5B4;
     margin-top: 10%
   }
+  .office-img{
+    width: 40%;
+    height: auto;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-top: 69%;
+    position: absolute;
+  }
   .mini-bio{
     font-size: 4.3vw;
   }
   .caller{
     position: absolute;
-    margin: 4% 0 0 -34%;
-    width: 75%;
+    margin: -1% 0 0 6%;
+    width: 31%;
     font-weight: 600;
   }
 }

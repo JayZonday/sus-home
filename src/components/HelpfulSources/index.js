@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Calm from './calm.jpg'
-import Yoga from './yoga.jpg'
+import Yoga from './yoga.jpeg'
 import Book from './reading.jpg'
 import './index.css';
 

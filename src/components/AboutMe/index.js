@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import BioPic from './female.png'
+import BioPic from './bio.jpeg'
+import Office from './office.jpeg'
 import Sunflower from './sf-corner-bg.png'
 import './index.css';
 
@@ -20,6 +21,7 @@ class AboutMe extends Component {
           <br/>
           <span className='caller'>Call Susanne Loquet @ (917)-612-1494 for more information and advice or to book an appointment.</span>
         </div>
+        <img className='office-img' src={Office}/>
         <img className='sf-about-design'src={Sunflower}/>
       </div>
     );
