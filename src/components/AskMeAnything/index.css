@@ -30,7 +30,7 @@
   width: 65%;
   height: auto;
   text-align: center;
-  /* background-image: url('./sf-bg.png'); */
+
   background-size: 100% 100%;
   font-weight: 900;
 
@@ -72,11 +72,10 @@
   .title-slab{
     margin: 2% auto;
     font-size: 24px;
-    border: 3px solid white;;
     padding: 4%;
     width: 65%;
     text-align: center;
-    background-image: url('./sunflowersbg.jpg');
+
     background-size: 100% 100%;
     border-radius: 3%;
     color: #FFE5B4;
