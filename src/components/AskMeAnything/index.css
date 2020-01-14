@@ -6,7 +6,7 @@
 .question{
   height: 150px;
   width: 70%;
-  margin: 2% auto;
+  margin: 4% auto;
   font-size: 20px;
   text-align: center;
   border-radius: 2%;
@@ -16,7 +16,7 @@
 .subject{
   height:50px;
   width: 70%;
-  margin: 1% auto;
+  margin: -2% auto;
   font-size: 17px;
   text-align: center;
   border-radius: 2%;
@@ -24,26 +24,26 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .title-slab{
-  margin: 2% auto;
-  font-size: 1.4vw;
-  border: 1px solid white;;
-  padding: 4%;
-  width: 22%;
+  margin: 0% auto;
+  font-size: 3.4vw;
+  padding: 2%;
+  width: 65%;
+  height: auto;
   text-align: center;
-  background-image: url('./sunflowersbg.jpg');
+  /* background-image: url('./sf-bg.png'); */
   background-size: 100% 100%;
-  border-radius: 1%;
   font-weight: 900;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
 .ask-title{
-  margin-top: -5%;
-  color: #FFE5B4;
+  margin-top: 10%;
+  color: white;
+  background: none;
   font-family: 'Courgette', cursive;
   width: 100%;
   -webkit-text-stroke-width: .1px;
  -webkit-text-stroke-color: black;
+
 
 
 }
@@ -62,6 +62,12 @@
   color: white;
 }
 
+.sunflower-design{
+  width: 25%;
+  transform: rotate(-180deg);
+  margin-left: 74.5%;
+  position:absolute;
+}
 @media only screen and (max-width: 600px) {
   .title-slab{
     margin: 2% auto;

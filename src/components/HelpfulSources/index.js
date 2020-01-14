@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Calm from './calm.jpg'
-import Walk from './todo.jpg'
+import Yoga from './yoga.jpg'
 import Book from './reading.jpg'
 import './index.css';
 
@@ -14,44 +14,44 @@ class HelpfulSources extends Component {
     return (
       <div className='sources-slab'>
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
               <img  className='flip-img'src={Book} alt="books'"/>
             </div>
-            <div class="flip-card-back">
-              <h1>Top Five Books</h1>
-              <p>....</p>
-              <p>...</p>
-              <p>...</p>
-              <p>...</p>
-              <p>...</p>
+            <div className="flip-card-back">
+              <h1 className='flip-title'>Top Five Books</h1>
+              <p className='flip-item'>....</p>
+              <p className='flip-item'>...</p>
+              <p className='flip-item'>...</p>
+              <p className='flip-item'>...</p>
+              <p className='flip-item'>...</p>
             </div>
           </div>
         </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
               <img className='flip-img' src={Calm} alt="oils'"/>
             </div>
-            <div class="flip-card-back">
-              <h1>Relaxation</h1>
-              <p>Music</p>
-              <p>Burning Incense</p>
-              <p>Essential Oils</p>
+            <div className="flip-card-back">
+              <h1 className='flip-title'>Relaxation</h1>
+              <p className='flip-item'>Music</p>
+              <p className='flip-item'>Burning Incense</p>
+              <p className='flip-item'>Essential Oils</p>
             </div>
           </div>
         </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img className='flip-img' src={Walk} alt="hobbies'"/>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img className='flip-img' src={Yoga} alt="hobbies'"/>
             </div>
-            <div class="flip-card-back">
-              <h1>Hobbies/Interests</h1>
-              <p>Yoga</p>
-              <p>Walk a Dog</p>
-              <p>Excercise</p>
+            <div className="flip-card-back">
+              <h1 className='flip-title'>Hobbies/Interests</h1>
+              <p className='flip-item'>Yoga</p>
+              <p className='flip-item'>Cooking</p>
+              <p className='flip-item'>Excercise</p>
             </div>
           </div>
         </div>
