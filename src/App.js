@@ -4,6 +4,7 @@ import TopNav from './components/TopNav'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import AboutMe from './components/AboutMe'
+import Service from './components/Service'
 import AskMeAnything from './components/AskMeAnything'
 import HelpfulSources from './components/HelpfulSources'
 import MainBody from './components/MainBody'
@@ -22,6 +23,7 @@ class App extends Component {
         <Switch>
           <Route path='/' exact component={ CentralHome } />
           <Route path='/about' exact component={ AboutMe } />
+          <Route path='/services' exact component={ Service } />
           <Route path='/ask-me-anything' exact component={ AskMeAnything } />
           <Route path='/helpful-resources' exact component={ HelpfulSources } />
         </Switch>

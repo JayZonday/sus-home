@@ -1,0 +1,47 @@
+.service-section{
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  background: white;
+  padding-bottom: 2%;
+
+}
+.tool-img{
+  padding: 2%;
+  width: 23%;
+  margin-left:8%;
+  margin-top: 2%;
+  transition: .3s ease-in-out;
+}
+.service-menu{
+  margin-left: 20%;
+  margin-top: 2%;
+  font-size: 2.5vw;
+  border: 1px solid black;
+  padding: 3%;
+}
+.appt-mailer{
+  background: white;
+  border: 1px solid black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 80%;
+  padding: 5%;
+  margin: 10% 0 0 6%;;
+  font-size: 1.5vw;
+  transition: .25s ease-in-out;
+}
+.appt-mailer:hover{
+  color: white;
+  background: black;
+}
+@media only screen and (max-width: 750px) {
+  .service-section{
+    display: block;
+  }
+  .service-menu{
+    font-size: 5.5vw;
+  }
+  .tool-img{
+    width: 30%;
+    margin: 10%;
+  }
+}
