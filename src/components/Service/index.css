@@ -39,9 +39,17 @@
   }
   .service-menu{
     font-size: 5.5vw;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: none;
+    padding: 3%;
   }
   .tool-img{
-    width: 30%;
-    margin: 10%;
+    width: 85%;
+    margin: 5%;
+  }
+  .appt-mailer{
+    font-size: 5vw;
+
   }
 }
