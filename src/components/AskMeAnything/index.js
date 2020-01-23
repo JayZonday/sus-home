@@ -12,14 +12,12 @@ class AskMeAnything extends Component {
   }
 
   handleQuestion = (event)  => {
-
     this.setState({
       question: event.target.value
     })
   }
 
   handleSubject = (event)  => {
-
     this.setState({
       subject: event.target.value
     })

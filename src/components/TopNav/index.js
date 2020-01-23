@@ -34,10 +34,11 @@ class TopNav extends Component {
             <button onClick={()=> this.handleClose()} className='close-btn'>close</button>
             <div className='quote'>
 
-            “You don't get to choose not to pay a price, you only get to choose which price you pay”
+            “In every day, there are 1,440 minutes. That means we have 1,440 daily opportunities to make a
+            positive impact.”
             <br/>
             <br/>
-            <b>Jordan B. Peterson</b>
+            <b>Les Brown</b>
             </div>
           </div>
 
