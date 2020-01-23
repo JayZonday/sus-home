@@ -107,6 +107,7 @@
     border-radius: 1%;
     transition: .25s ease-in-out;
     background: none;
+    mix-blend-mode: none !important;
   }
   .main-slab:hover{
     background: rgba(255,255,255,0.55);
