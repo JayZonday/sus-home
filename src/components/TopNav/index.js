@@ -28,19 +28,7 @@ class TopNav extends Component {
         <a href='mailto:susloquet@gmail.com' target='_blank'><button className='nav-btn' id='mailer' href="mailto:name@mydomain.com">Contact Me</button></a>
         <NavLink to="/about"> <button className='nav-btn'>About Me</button> </NavLink>
         <NavLink to="/services"><button className='nav-btn'><span>Services</span></button></NavLink>
-        <button onClick={()=> this.quoteHandler()}className='nav-btn'><span>Quote of The Month</span></button>
-
-          <div className='qotd'>
-            <button onClick={()=> this.handleClose()} className='close-btn'>close</button>
-            <div className='quote'>
-
-            “In every day, there are 1,440 minutes. That means we have 1,440 daily opportunities to make a
-            positive impact.”
-            <br/>
-            <br/>
-            <b>Les Brown</b>
-            </div>
-          </div>
+        <NavLink to='/helpful-resources'><button className='nav-btn'>Helpful Resources</button></NavLink>
 
       </div>
     );

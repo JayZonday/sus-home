@@ -98,10 +98,10 @@
     width: 100%;
   }
   .main-slab{
-    margin: 115% 0 0 15%;;
+    margin: 115% auto;
     font-size: 14px;
-    width: 20%;
-    height: 40px;
+    width: 30%;
+    height: 25px;
     border: 1px solid black;
     font-weight: bolder;
     border-radius: 1%;
