@@ -18,7 +18,7 @@ class AboutMe extends Component {
           Clinicial Social Work.
           <br/>
           <br/>
-          <span className='caller'>Call Susanne Loquet @ (917)-612-1494 for more information and advice or to book an appointment.</span>
+          <span className='caller'><b>Call Susanne Loquet @ <a href='tel:917-612-1494'>917-612-1494</a> for more information and advice or to book an appointment.</b></span>
         </div>
         <img className='sf-about-design'src={Sunflower}/>
       </div>
