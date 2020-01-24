@@ -28,8 +28,7 @@ class TopNav extends Component {
         <a href='mailto:susloquet@gmail.com' target='_blank'><button className='nav-btn' id='mailer' href="mailto:name@mydomain.com">Contact Me</button></a>
         <NavLink to="/about"> <button className='nav-btn'>About Me</button> </NavLink>
         <NavLink to="/services"><button className='nav-btn'><span>Services</span></button></NavLink>
-        <NavLink to='/helpful-resources'><button className='nav-btn'>Helpful Resources</button></NavLink>
-
+        <NavLink to='/ask-me-anything'><button className='nav-btn' >Anonymous Advice</button></NavLink>
       </div>
     );
   }
