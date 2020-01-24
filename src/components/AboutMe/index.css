@@ -1,11 +1,10 @@
 .about-slab{
-  height: 455px;
+  height: auto;
   width: 85%;
   background: white;
   margin: 2.5%;
   padding: 5%;
   display: flex;
-  border: 4px solid black;
 }
 .bio-pic{
   height: auto;
