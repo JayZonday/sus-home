@@ -20,10 +20,8 @@ class HelpfulSources extends Component {
               <img  className='flip-img'src={Book} alt="books'"/>
             </div>
             <div className="flip-card-back">
-              <h1 className='flip-title'>Top Five Books</h1>
+              <h1 className='flip-title'>Top Three Books</h1>
               <p className='flip-item'>....</p>
-              <p className='flip-item'>...</p>
-              <p className='flip-item'>...</p>
               <p className='flip-item'>...</p>
               <p className='flip-item'>...</p>
             </div>
