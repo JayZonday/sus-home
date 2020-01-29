@@ -14,13 +14,13 @@
   color: white;
   transition: .35s ease-in-out;
   font-family: 'Courgette', cursive;
-  margin: .8%;
+  margin: .5%;
 }
 a:hover, a, a:active{
   text-decoration: none !important;
 }
 
-.nav-btn:hover{
+.nav-btn :hover{
   color: #FFE5B4;
   border-right: 2px solid #FFE5B4;
 
@@ -34,7 +34,7 @@ a:hover, a, a:active{
 }
 .nav-logo{
   height: 60px;
-
+  margin-top: -1%;
   width: 4%;
 }
 .sunflower{
