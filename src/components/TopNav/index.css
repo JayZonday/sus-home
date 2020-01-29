@@ -11,18 +11,19 @@
   border-right: 2px solid transparent;
   font-size: 13px;
   text-align: center;
-  color: white;
+  color: white !important;
   transition: .35s ease-in-out;
   font-family: 'Courgette', cursive;
   margin: .5%;
 }
 a:hover, a, a:active{
   text-decoration: none !important;
+    color: #FFE5B4 !important;
 }
 
 .nav-btn :hover{
-  color: #FFE5B4;
-  border-right: 2px solid #FFE5B4;
+  color: #FFE5B4 !important;
+  border-right: 2px solid #FFE5B4 !important;
 
 }
 #home-title{
