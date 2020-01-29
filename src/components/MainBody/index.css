@@ -42,12 +42,15 @@
       position: absolute;
     }
     .testimonial{
-      font-size: 3.5vw;
+      font-size: 4.5vw;
     }
     .carousel-indicators li{
       background: black;
       height: .1vh;
       width: 3%;
       border-radius: 100%;
+    }
+    .carousel-indicators{
+      margin: -2% auto;
     }
 }
