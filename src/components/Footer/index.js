@@ -9,7 +9,7 @@ class Footer extends Component {
     return (
       <div className='footer'>
         <div className='footer-item'>Grateful Counseling Services LLC</div>
-        <div className='footer-item'>River Edge, New Jersey</div>
+        <div className='footer-item'>Bergen County, New Jersey</div>
         <div className='footer-item'>
           Phone: <a className='tele' href='tel:917-612-1494'><b>(917)-612-1494</b></a>
         </div>

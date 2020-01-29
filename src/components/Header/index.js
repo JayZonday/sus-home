@@ -22,7 +22,7 @@ class Header extends Component {
             <br/>
             <span className='license'>MSW, LCSW</span>
             <br/>
-            <span className='license'>River Edge, New Jersey</span>
+            <span className='license'>Bergen County, New Jersey</span>
             <br/>
           </h1>
         </div>

@@ -4,17 +4,17 @@
   background: black;
 }
 .nav-btn{
-  width: 22%;
-  height: 50px;
-  border: 2px solid #aaa;
+  width: 20%;
+  height: 20px;
   background: none;
   font-weight: 600;
+  border-right: 2px solid transparent;
   font-size: 13px;
+  text-align: center;
   color: white;
-  transition: .25s ease-in-out;
+  transition: .35s ease-in-out;
   font-family: 'Courgette', cursive;
   margin: .8%;
-
 }
 a:hover, a, a:active{
   text-decoration: none !important;
@@ -22,8 +22,7 @@ a:hover, a, a:active{
 
 .nav-btn:hover{
   color: #FFE5B4;
-  border: 1px solid #FFE5B4;
-  background: rgba(255,255,255,.25);
+  border-right: 2px solid #FFE5B4;
 
 }
 #home-title{
@@ -37,6 +36,9 @@ a:hover, a, a:active{
   height: 60px;
 
   width: 4%;
+}
+.sunflower{
+  width: 100%;
 }
 .qotd{
   font-family: 'Open Sans Condensed', sans-serif;
@@ -96,7 +98,7 @@ a:hover, a, a:active{
   }
   #home-title{
     position: absolute;;
-    margin: 3% 0% 0 47.1%;
+    margin: -40% 0% 0 36.1%;
     background: black;
     color: white;
     font-weight: 600;

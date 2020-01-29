@@ -1,6 +1,6 @@
 .about-slab{
   height: auto;
-  width: 85%;
+  width: 95%;
   background: white;
   margin: 2.5%;
   padding: 5%;
@@ -27,7 +27,7 @@
   width: 80%;
   font-size: 2vw;
   margin-left: 2%;
-  margin-top: 5%;
+  margin-top: 0%;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 .sf-about-design{
@@ -54,7 +54,7 @@
     position: absolute;
   }
   .mini-bio{
-    font-size: 4.3vw;
+    font-size: 3.2vw;
   }
   .caller{
     position: absolute;

@@ -21,7 +21,7 @@ class HelpfulSources extends Component {
             </div>
             <div className="flip-card-back">
               <h1 className='flip-title'>Top Three Books</h1>
-              <p className='flip-item'>....</p>
+              <p className='flip-item'>...</p>
               <p className='flip-item'>...</p>
               <p className='flip-item'>...</p>
             </div>
@@ -46,7 +46,7 @@ class HelpfulSources extends Component {
               <img className='flip-img' src={Yoga} alt="hobbies'"/>
             </div>
             <div className="flip-card-back">
-              <h1 className='flip-title'>Hobbies & Interests</h1>
+              <h1 className='flip-title'>Be Active!</h1>
               <p className='flip-item'>Yoga</p>
               <p className='flip-item'>Cooking</p>
               <p className='flip-item'>Excercise</p>

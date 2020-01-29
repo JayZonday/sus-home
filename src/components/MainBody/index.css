@@ -1,30 +1,53 @@
 .main-box{
-  display: flex;
-  font-size: 2.5vw;
-  width: 100%;
-  height: auto;
-  padding: 0%;
-}
-.main-slab{
-  margin: 5% auto;
-  border: 40px double black;
-  background:  rgba(255, 255, 255, 0.9);
-  padding: 3%;
-  color: black !important;
+  margin: 14% auto;
+  background:  rgba(255, 255, 255, .95);
+  padding: 1%;
   text-align: center;
-  height: 125px;
-  width: 10%;;
-  border-radius: 100%;
-  font-weight: 700;
-  transition: .25s ease-in-out;
-  cursor: pointer;
-  mix-blend-mode: screen;
+  height: auto;;
   font-family: 'Open Sans Condensed', sans-serif;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 60%;
+}
+.testimonial{
+  padding: 2%;
+  margin: 5%;
+  font-size: 1.5vw;
+}
+.carousel-control-next, .carousel-control-prev{
+  display: none;
+  color: black !important;
+  border: 1px solid black;
+  background: black;
+  width: 3%;
+}
+.carousel-indicators{
+  margin: 0% auto;
+}
+.carousel-indicators li{
+  background: black;
+  height: .1vh;
+  width: 2%;
+  border-radius: 100%;
 }
 
-.main-slab:hover{
-  border: 30px double black;
-  background:  rgba(255, 255, 255, 1);
-  transform: scale(1.10);
+@media only screen and (max-width: 750px) {
+
+  .main-box{
+      margin: 102% auto;
+      background: none;
+      padding: 1%;
+      text-align: center;
+      height: auto;
+      font-family: 'Open Sans Condensed', sans-serif;
+      width: 100%;
+      position: absolute;
+    }
+    .testimonial{
+      font-size: 3.5vw;
+    }
+    .carousel-indicators li{
+      background: black;
+      height: .1vh;
+      width: 3%;
+      border-radius: 100%;
+    }
 }

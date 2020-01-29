@@ -12,8 +12,8 @@ class Service extends Component {
         <div className='service-menu'>
           <ul>Available Services</ul>
           <li>Walk & Talk Therapy</li>
-          <li>Traditional Talk Therapy</li>
           <li>Creative Counseling</li>
+          <li>Support Groups</li>
           <a href='mailto:susloquet@gmail.com?subject=Initial%20Appointment%20Setup' target='_blank'>
             <button className='appt-mailer'>Book An Appointment Today</button>
           </a>
