@@ -36,6 +36,9 @@
   transform: rotate(90deg);
   margin: -11% 0 0 -6%;
 }
+.tele{
+  color: #aaa !important;
+}
 @media only screen and (max-width: 600px) {
   .bio-pic{
     height: 300px;
