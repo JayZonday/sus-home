@@ -14,11 +14,11 @@ class Service extends Component {
           <li>Walk & Talk Therapy</li>
           <li>Creative Counseling</li>
           <li>Support Groups</li>
-          <a href='mailto:susloquet@gmail.com?subject=Initial%20Appointment%20Setup' target='_blank'>
+          <a href='mailto:susloquet@gmail.com?subject=Initial%20Appointment%20Setup'  target='_blank' rel="noopener noreferrer" >
             <button className='appt-mailer'>Book An Appointment Today</button>
           </a>
         </div>
-        <img className='tool-img' src={Office} />
+        <img className='tool-img' alt='office-pic' src={Office} />
       </div>
     );
   }

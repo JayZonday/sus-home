@@ -13,7 +13,7 @@ class Footer extends Component {
         <div className='footer-item'>
           Phone: <a className='tele' href='tel:917-612-1494'><b>(917)-612-1494</b></a>
         </div>
-        <div className='footer-item'><a href='mailto:susloquet@gmail.com' target='_blank' id='mailer' >
+        <div className='footer-item'><a href='mailto:susloquet@gmail.com' rel="noopener noreferrer" target='_blank' id='mailer' >
           <b>Susloquet@gmail.com</b></a>
         </div>
       </div>

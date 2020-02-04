@@ -11,7 +11,7 @@ class AboutMe extends Component {
 
     return (
       <div className='about-slab'>
-        <img className='bio-pic' src={BioPic} />
+        <img className='bio-pic' alt='susanne' src={BioPic} />
         <div className='mini-bio'>
           Hi, I'm <b>Susanne Loquet</b>, a licensed clinical social worker with more than 30 years experience working with children, adults, & couples.
           I have a diverse work experience which has enabled me to connect my strengths to meet the needs of my clients abilities. I conduct my sessions
@@ -21,7 +21,7 @@ class AboutMe extends Component {
           <br/>
           <span className='caller'><b>Call Susanne Loquet @ <a className='tele' href='tel:917-612-1494'>917-612-1494</a> for more information and advice or to book an appointment.</b></span>
         </div>
-        <img className='sf-about-design'src={Sunflower}/>
+        <img alt='sunflower' className='sf-about-design'src={Sunflower}/>
       </div>
     );
   }
