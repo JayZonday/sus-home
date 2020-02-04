@@ -13,7 +13,7 @@ class AboutMe extends Component {
       <div className='about-slab'>
         <img className='bio-pic' src={BioPic} />
         <div className='mini-bio'>
-          Hi, I'm Susanne Loquet, a licensed clinical social worker with more than 30 years experience working with children, adults, & couples.
+          Hi, I'm <b>Susanne Loquet</b>, a licensed clinical social worker with more than 30 years experience working with children, adults, & couples.
           I have a diverse work experience which has enabled me to connect my strengths to meet the needs of my clients abilities. I conduct my sessions
           in my sunfilled home office & walk and talk therapy for my busy "on the go" clients, mostly accompanied by my dog, Dempsey.
           I look forward to speaking with you to see if we might connect and work together!
