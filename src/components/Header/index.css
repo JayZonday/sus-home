@@ -5,16 +5,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  padding-bottom: 1%;
+  padding-bottom: .5%;
 }
 .main-title-box{
-  background: rgba(255,255,255,.8);
+  background: rgba(255,255,255,.85);
   width: 90%;
   margin: 2% auto;
-  font-size: 3vw;
+  font-size: 3.2vw;
   height: auto;
   display: flex;
-  padding: 0%;
+  padding-bottom: 3%;
   font-family: 'Courgette', cursive;
 }
 .main-title{
@@ -25,14 +25,14 @@
 
 }
 .main-title#name{
-  margin-left: 14%;
+  margin-left: 12%;
   margin-top: 1%;
   text-align: center;
 }
 .main-title#biz{
   margin-left: 5%;
   margin-top: 2%;
-  font-size: 3vw;
+  font-size: 3.1vw;
   text-align: center;
 }
 .title-desc{
