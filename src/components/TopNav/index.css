@@ -10,6 +10,7 @@
   background: none;
   font-weight: 600;
   border-right: 2px solid transparent !important;
+  border-left: 2px solid transparent !important;
   font-size: 13px;
   text-align: center;
   color: white !important;
@@ -27,18 +28,20 @@ a:hover, a, a:active{
 .nav-btn:hover{
   color: #FFE5B4 !important;
   border-right: 2px solid #FFE5B4 !important;
+  border-left: 2px solid #FFE5B4 !important;
 }
 #home-title{
   position: absolute;
-  margin: 3.5% 0% 0 1.1%;
+  margin: 5.5% 0% 0 2%;
   color: white;
   font-weight: 600;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 .nav-logo{
-  height: 60px;
+  height: 70px;
   margin-top: -1%;
-  width: 4%;
+  margin-left: 1%;
+  width: 6%;
 }
 .sunflower{
   width: 100%;

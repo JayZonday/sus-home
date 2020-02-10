@@ -26,41 +26,6 @@ class MainBody extends Component {
             - <b>M</b> -
           </div>
           </Carousel.Item>
-          <Carousel.Item>
-          <div className='testimonial'>
-          " "
-            <br/>
-            - <b>S</b> -
-          </div>
-          </Carousel.Item>
-          <Carousel.Item>
-          <div className='testimonial'>
-          " "
-            <br/>
-            - <b>A</b> -
-          </div>
-          </Carousel.Item>
-          <Carousel.Item>
-          <div className='testimonial'>
-          " "
-            <br/>
-            - <b>M</b> -
-          </div>
-          </Carousel.Item>
-          <Carousel.Item>
-          <div className='testimonial'>
-          " "
-            <br/>
-            - <b>S</b> -
-          </div>
-          </Carousel.Item>
-          <Carousel.Item>
-          <div className='testimonial'>
-          " "
-            <br/>
-            - <b>A</b> -
-          </div>
-          </Carousel.Item>
         </Carousel>
       </div>
     );
