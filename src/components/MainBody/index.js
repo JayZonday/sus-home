@@ -21,9 +21,9 @@ class MainBody extends Component {
           </Carousel.Item>
           <Carousel.Item>
           <div className='testimonial'>
-          " "
+          " At the age of 12, I walked im  anxious and lost. Three years later, I walk out truly happy and proud."
             <br/>
-            - <b>M</b> -
+            - <b>B</b> -
           </div>
           </Carousel.Item>
         </Carousel>

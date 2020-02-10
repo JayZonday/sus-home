@@ -50,6 +50,8 @@ class HelpfulSources extends Component {
               <p className='flip-item'>Yoga</p>
               <p className='flip-item'>Cooking</p>
               <p className='flip-item'>Excercise</p>
+              <p className='flip-item'>Hiking</p>
+              <p className='flip-item'>Sports</p>
             </div>
           </div>
         </div>
