@@ -15,6 +15,7 @@
 }
 .flip-item{
   font-size: 24px;
+  font-style: italic;
 }
 /* This container is needed to position the front and back side */
 .flip-card-inner {

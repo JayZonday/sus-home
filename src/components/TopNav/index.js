@@ -5,20 +5,7 @@ import Sunflower from './sunflower.png'
 
 
 class TopNav extends Component {
-
-  quoteHandler = () => {
-    if (document.querySelector('.qotd').style.display === 'block')
-    document.querySelector('.qotd').style.display = 'none'
-    else{
-    document.querySelector('.qotd').style.display = 'block'
-    }
-  }
-
-  handleClose = () => {
-    document.querySelector('.qotd').style.display = 'none'
-  }
-
-
+  
   render(){
 
     return (
