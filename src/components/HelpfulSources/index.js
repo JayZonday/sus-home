@@ -37,6 +37,7 @@ class HelpfulSources extends Component {
               <p className='flip-item'>Music</p>
               <p className='flip-item'>Burning Incense</p>
               <p className='flip-item'>Essential Oils</p>
+              <p className='flip-item'>Deep & Focused Breathing</p>
             </div>
           </div>
         </div>

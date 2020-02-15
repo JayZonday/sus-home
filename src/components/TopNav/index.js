@@ -24,10 +24,10 @@ class TopNav extends Component {
     return (
       <div className='navbar'>
         <NavLink className='nav-logo' title='Return to Homepage'to="/"><span id='home-title'>GCS</span> <img alt='sunflower2' className='sunflower' src={Sunflower}/> </NavLink>
-        <a href='mailto:susloquet@gmail.com' target='_blank' rel="noopener noreferrer" className='nav-btn' >Contact Me</a>
         <NavLink to="/about" className='nav-btn' >About Me </NavLink>
         <NavLink to="/services" className='nav-btn'>Services</NavLink>
         <NavLink to='/helpful-resources' className='nav-btn'>Helpful Resources</NavLink>
+        <a href='mailto:susloquet@gmail.com' target='_blank' rel="noopener noreferrer" className='nav-btn' >Contact Me</a>
       </div>
     );
   }

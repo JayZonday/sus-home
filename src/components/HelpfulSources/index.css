@@ -1,6 +1,6 @@
 .sources-slab{
   background: white;
-  height: auto;
+  height: 500px;
   width: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
   display: flex;
@@ -14,13 +14,13 @@
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 .flip-item{
-  font-size: 22px;
+  font-size: 24px;
 }
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 450px;;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -46,7 +46,11 @@
 }
 .flip-img{
   width:100%;
-  height: 350px;;
+  height: 450px;;
+}
+.flip-title{
+  margin-bottom: 5%;
+  font-weight: bold;
 }
 
 /* Style the back side */
