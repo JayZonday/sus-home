@@ -50,6 +50,13 @@
   .service-section{
     display: block;
   }
+  .service-title{
+    font-family: 'Courgette', cursive;
+    font-size: 6.5vw;
+  }
+  .work-group{
+    font-size: 4.5vw;
+  }
   .service-menu{
     font-size: 5.5vw;
     margin-left: 10%;
