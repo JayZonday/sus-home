@@ -10,14 +10,14 @@ class Service extends Component {
     return (
       <div className='service-section'>
         <div className='service-menu'>
-          <ul>Available Services</ul>
+          <ul className='service-title'>Available Services</ul>
           <li>Walk & Talk Therapy</li>
           <li>Creative Counseling</li>
           <li>Support Groups</li>
+          <div className='work-group'>Work with children, families, couples, and individuals</div>
           <a href='mailto:susloquet@gmail.com?subject=Initial%20Appointment%20Setup'  target='_blank' rel="noopener noreferrer" >
             <button className='appt-mailer'>Book An Appointment Today</button>
           </a>
-          <div className='work-group'>Work with children, families, couples, and individuals</div>
         </div>
         <img className='tool-img' alt='office-pic' src={Office} />
       </div>

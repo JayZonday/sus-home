@@ -3,7 +3,6 @@
   display: flex;
   background: white;
   padding-bottom: 2%;
-
 }
 .tool-img{
   padding: 2%;
@@ -15,14 +14,17 @@
   background: black;
   transition: .3s ease-in-out;
 }
-
+.service-title{
+  font-family: 'Courgette', cursive;
+  font-size: 2.5vw;
+}
 .service-menu{
   margin-left: 20%;
   margin-top: 2%;
-  font-size: 2.4vw;
+  font-size: 2vw;
   border: 2px solid black;
   padding: 3%;
-  width: 28%;
+  width: 30%;
   height: auto;
 }
 .work-group{
