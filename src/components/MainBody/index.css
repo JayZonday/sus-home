@@ -15,7 +15,7 @@
   font-size: 1.5vw;
   height: 190px;
   transition: .25s ease-in-out;
-  border: 2px solid black;
+  border: 4px double black;
 }
 .initial{
   margin: 2%;
