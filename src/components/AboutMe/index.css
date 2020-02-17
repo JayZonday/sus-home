@@ -9,8 +9,8 @@
 .bio-pic{
   height: auto;
   width: 25%;
-  border-radius: 100%;
-  border: 2px solid black;
+  border-radius: 1%;
+  border: 3px solid black;
   background: #FFE5B4;
 }
 .office-img{
@@ -40,11 +40,20 @@
 .tele{
   color: #aaa !important;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
+  .about-slab {
+    height: auto;
+    width: 95%;
+    background: white;
+    margin: 2.5%;
+    padding: 5%;
+    display: block;
+    text-align: center;
+  }
   .bio-pic{
-    width: 45%;
-    border-radius: 100%;
-    border: 1px solid black;
+    width: 75%;
+    border-radius: 1%;
+    border: 3px solid black;
     background: #FFE5B4;
     margin-top: 0%;
   }
@@ -57,7 +66,14 @@
     position: absolute;
   }
   .mini-bio{
-    font-size: 3.5vw;
+    background: white;
+    padding: 2%;
+    height: auto;
+    width: 95%;
+    font-size: 4.5vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+    margin-top: 2%;
   }
   .caller{
     display: none;

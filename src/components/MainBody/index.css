@@ -3,18 +3,22 @@
   background:  rgba(255, 255, 255, .95);
   padding: 1%;
   text-align: center;
-  height: auto;;
+  height: auto;
   font-family: 'Open Sans Condensed', sans-serif;
   width: 47%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  
+
 }
 .testimonial{
   padding: 2%;
-  margin: 5%;
+  margin: 3%;
   font-size: 1.5vw;
-  height: 180px;
+  height: 190px;
   transition: .25s ease-in-out;
+  border: 2px solid black;
+}
+.initial{
+  margin: 2%;
 }
 .carousel-control-next, .carousel-control-prev{
   display: none;
@@ -24,7 +28,7 @@
   width: 3%;
 }
 .carousel-indicators{
-  margin: 0% auto;
+  margin: -1% auto;
 }
 .carousel-indicators li{
   background: black;
@@ -36,7 +40,7 @@
 @media only screen and (max-width: 750px) {
 
   .main-box{
-      margin: 102% auto;
+      margin: 105% auto;
       background: none;
       padding: 1%;
       text-align: center;
@@ -56,6 +60,6 @@
       border-radius: 100%;
     }
     .carousel-indicators{
-      margin: -2% auto;
+      margin: -3% auto;
     }
 }
