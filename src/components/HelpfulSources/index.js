@@ -21,9 +21,10 @@ class HelpfulSources extends Component {
             </div>
             <div className="flip-card-back">
               <h1 className='flip-title'>Top Three Books</h1>
-              <p className='flip-item'>The Feeling Good Handbook <br/><b>David Burns</b></p>
-              <p className='flip-item'>Get Out of Your Mind & Into Your Life <br/> <b>Steven Hayes</b> </p>
-              <p className='flip-item'>Anxious for Nothing: Finding Calm in a Chaotic World <br/> <b>Max Lucado</b> </p>
+              <p className='flip-item'>The Teenage Brain <br/><b>Frances Jensen, MD</b></p>
+              <p className='flip-item'>Untangled<br/> <b>Lisa DaMour, PhD</b> </p>
+              <p className='flip-item'>Pride & Prejudice <br/> <b>Jane Austen</b> </p>
+              <p className='flip-item'>Power Thought Cards Deck <br/> <b>Louise Hay</b> </p>
             </div>
           </div>
         </div>

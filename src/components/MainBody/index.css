@@ -55,8 +55,8 @@
     }
     .carousel-indicators li{
       background: black;
-      height: .1vh;
-      width: 3%;
+      height: 0vh;
+      width: 4%;
       border-radius: 100%;
     }
     .carousel-indicators{
