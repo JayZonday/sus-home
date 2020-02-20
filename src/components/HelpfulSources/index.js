@@ -21,10 +21,23 @@ class HelpfulSources extends Component {
             </div>
             <div className="flip-card-back">
               <h1 className='flip-title'>Top Three Books</h1>
-              <p className='flip-item'>The Teenage Brain <br/><b>Frances Jensen, MD</b></p>
-              <p className='flip-item'>Untangled<br/> <b>Lisa DaMour, PhD</b> </p>
-              <p className='flip-item'>Pride & Prejudice <br/> <b>Jane Austen</b> </p>
-              <p className='flip-item'>Power Thought Cards Deck <br/> <b>Louise Hay</b> </p>
+              <p className='flip-item'>
+                <a className='booklink' href='https://www.amazon.com/Teenage-Brain-Neuroscientists-Survival-Adolescents/dp/B00SZAJPC6/ref=sr_1_1?crid=1WCMLGRMPI6OK&keywords=the+teenage+brain&qid=1582148366&sprefix=the+teenage+%2Caps%2C144&sr=8-1' target='_blank'>
+                The Teenage Brain</a>
+                <br/><b>Frances Jensen, MD</b></p>
+              <p className='flip-item'>
+                <a className='booklink' href='https://www.amazon.com/Untangled-Guiding-Teenage-Transitions-Adulthood/dp/0553393073/ref=sr_1_1?keywords=untangled&qid=1582148801&sr=8-1' target='_blank'>
+                Untangled</a>
+                <br/> <b>Lisa DaMour, PhD</b> </p>
+              <p className='flip-item'>
+                <a className='booklink' href='https://www.amazon.com/Pride-Prejudice-Jane-Austen/dp/1503290565/ref=sr_1_1_sspa?crid=2N6XR797B4ELC&keywords=pride+and+prejudice&qid=1582149063&sprefix=pride+and+pr%2Caps%2C165&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFWUDdQOFBRT1BUQUsmZW5jcnlwdGVkSWQ9QTA1MDEyODBOMzlYWVRORDdaQ1omZW5jcnlwdGVkQWRJZD1BMDExNzM5NDE0VjgxQ0FLREtZRkcmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl'
+                target='_blank'>
+                Pride & Prejudice</a>
+              <br/> <b>Jane Austen</b> </p>
+              <p className='flip-item'>
+                <a className='booklink' href='https://www.amazon.com/Power-Thought-Cards-Card-Deck/dp/1561706124/ref=sr_1_1?crid=2KSLTTE13XEYU&keywords=power+thought+cards+by+louise+hay&qid=1582149536&sprefix=power+thought+cards%2Caps%2C151&sr=8-1' target='_blank'>
+                Power Thought Cards Deck </a>
+              <br/> <b>Louise Hay</b> </p>
             </div>
           </div>
         </div>

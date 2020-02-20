@@ -5,7 +5,12 @@
   font-family: 'Open Sans Condensed', sans-serif;
   display: flex;
 }
-
+.booklink{
+  color: black !important;
+}
+.booklink:hover{
+  color: #FFE5B4;
+}
 .flip-card {
   background-color: transparent;
   width: 26%;;
