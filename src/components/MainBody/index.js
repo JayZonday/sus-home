@@ -28,7 +28,7 @@ class MainBody extends Component {
           </Carousel.Item>
           <Carousel.Item>
           <div className='testimonial'>
-          " Susanne has helped me so much. She helped me find the courage move forward and gert unstuck "
+          " Susanne has helped me so much. She helped me find the courage to move forward and get unstuck "
             <br/>
             - <b className='initial'><i>J</i></b> -
           </div>
