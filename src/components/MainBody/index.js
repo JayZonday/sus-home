@@ -16,7 +16,7 @@ class MainBody extends Component {
           " Someone who truly listens and makes you feel understood, even in times when you yourself don't quite understand.
            Also, an incredibly comfortable office space that makes you feel at home, and her assistant Dempsey is top notch! "
             <br/>
-            - <b className='initial'><i>JM</i></b> -
+            - <b className='initial'><i>JW</i></b> -
           </div>
           </Carousel.Item>
           <Carousel.Item>
@@ -28,7 +28,7 @@ class MainBody extends Component {
           </Carousel.Item>
           <Carousel.Item>
           <div className='testimonial'>
-          " Susanne has helped me so much. She helpoed me find the courage move forward and gert unstuck "
+          " Susanne has helped me so much. She helped me find the courage move forward and gert unstuck "
             <br/>
             - <b className='initial'><i>J</i></b> -
           </div>
