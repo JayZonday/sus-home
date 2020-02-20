@@ -62,11 +62,11 @@ class HelpfulSources extends Component {
             </div>
             <div className="flip-card-back">
               <h1 className='flip-title'>Be Active!</h1>
-              <p className='flip-item'>Yoga</p>
-              <p className='flip-item'>Cooking</p>
-              <p className='flip-item'>Excercise</p>
-              <p className='flip-item'>Hiking</p>
-              <p className='flip-item'>Sports</p>
+              <p className='flip-item'><a className='booklink' href='https://www.health.harvard.edu/mind-and-mood/yoga-for-anxiety-and-depression' target='_blank'>Yoga</a></p>
+              <p className='flip-item'><a className='booklink' href='https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626' target='_blank'> Cooking</a></p>
+              <p className='flip-item'><a className='booklink' href='https://www.psychologytoday.com/us/blog/what-works-and-why/201803/how-your-mental-health-reaps-the-benefits-exercise' target='_blank'>Excercise</a></p>
+              <p className='flip-item'><a className='booklink' href='https://www.health.harvard.edu/blog/health-benefits-of-hiking-raise-your-heart-rate-and-your-mood-2016092810414' target='_blank'>Hiking</a></p>
+              <p className='flip-item'><a className='booklink' href='https://www.healthline.com/health/mental-benefits-sports' target='_blank'> Sports</a></p>
             </div>
           </div>
         </div>

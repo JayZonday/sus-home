@@ -7,9 +7,10 @@
 }
 .booklink{
   color: black !important;
+  transition: .25s ease-in-out;
 }
 .booklink:hover{
-  color: #FFE5B4;
+  color: #F6B002 !important;
 }
 .flip-card {
   background-color: transparent;
