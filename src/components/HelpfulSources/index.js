@@ -48,10 +48,10 @@ class HelpfulSources extends Component {
             </div>
             <div className="flip-card-back">
               <h1 className='flip-title'>Relaxation</h1>
-              <p className='flip-item'>Music</p>
-              <p className='flip-item'>Burning Incense</p>
-              <p className='flip-item'>Essential Oils</p>
-              <p className='flip-item'>Deep & Focused Breathing</p>
+              <p className='flip-item'><a className='booklink' href='https://www.youtube.com/watch?v=TwXilp2mUtE' target='_blank'>Music</a></p>
+              <p className='flip-item'><a className='booklink' href='https://www.psychicsource.com/article/health-wellness/the-6-best-incense-scents-to-burn-for-relaxation/8515' target='_blank'>Burning Incense</a></p>
+              <p className='flip-item'><a className='booklink' href='https://www.healthline.com/health/anxiety/essential-oils-for-anxiety' target='_blank'>Essential Oils</a></p>
+              <p className='flip-item'><a className='booklink' href='https://www.webmd.com/balance/stress-management/stress-relief-breathing-techniques#1' target='_blank'>Deep & Focused Breathing</a></p>
             </div>
           </div>
         </div>
