@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-attachment:fixed;
   padding-bottom: 1%;
+  
 }
 .main-title-box{
   background: rgba(255,255,255,.85);
@@ -16,6 +17,7 @@
   display: flex;
   padding-bottom: 3%;
   font-family: 'Courgette', cursive;
+
 }
 .main-title{
   font-size: 3.5vw;
