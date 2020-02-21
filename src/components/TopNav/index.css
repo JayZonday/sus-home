@@ -17,6 +17,7 @@
   font-family: 'Courgette', cursive;
   margin: 2%;
   padding: .5%;
+  padding-bottom: 1%;
   border-radius: 100%;
 }
 a:hover, a, a:active{

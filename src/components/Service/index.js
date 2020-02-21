@@ -14,7 +14,7 @@ class Service extends Component {
           <li>Walk & Talk Therapy</li>
           <li>Creative Counseling</li>
           <li>Support Groups</li>
-          <div className='work-group'>Work with children, families, couples, and individuals</div>
+          <div className='work-group'>Work with children, adults, & couples</div>
           <a href='mailto:susloquet@gmail.com?subject=Initial%20Appointment%20Setup'  target='_blank' rel="noopener noreferrer" >
             <button className='appt-mailer'>Book An Appointment Today</button>
           </a>
